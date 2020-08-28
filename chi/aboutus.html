@@ -15,10 +15,10 @@
 
     <div id= "languagebar" class="languagebar">
         <div class="wrapperLang">
-            <button onclick="location.href='../index.html'" id="langButtonSelected" class="langButton">
+            <button onclick="location.href='../index.html'" class="langButton">
                 <img style= "vertical-align: middle;" src="images/langENG.svg">
             </button>
-            <button class="langButton">
+            <button id="langButtonSelected" class="langButton">
                 <img style= "vertical-align: middle;" src="images/langCHI.svg">
             </button>
             <button onclick="location.href='../viet/index.html'" class="langButton">
@@ -27,7 +27,10 @@
         </div>
     </div>
 
-    <!-- START NAV -->
+
+
+
+<!-- START NAV -->
 
     <nav id="menu">
         <a href="javascript:void(0)" class="cross" onclick="closeNav()">×</a>    
@@ -35,11 +38,11 @@
         <div class="menuflexer">
         <a href="index.html"><img id="logo" src="images/pbmlogofull.svg" alt=""></a>
         <div class="linkwrapper">
-        <a class="navitem" href="index.html">Home</a>
-        <a id= "navitemSelected" class="navitem" href="aboutus.html">About Us</a>
-        <a class="navitem" href="whatwedo.html">What We Do</a>
-        <a class="navitem" href="whyuseus.html">Why Use Us</a>
-        <a class="navitem" href="businessmigration.html">Business Migration</a>
+        <a id= "navitemSelected" class="navitem" href="index.html">首頁</a>
+        <a class="navitem" id= "navitemSelected" href="aboutus.html">关于我们</a>
+        <a class="navitem" href="whatwedo.html">我们致力于</a>
+        <a class="navitem" href="whyuseus.html">选择我们</a>
+        <a class="navitem" href="businessmigration.html">商业移民</a>
         </div> 
         </div>
     </nav>
@@ -88,13 +91,14 @@
     </div>
 
 
-<footer id="white">
-    <img src="images/icon-logo.svg">
-    <h2 id="white">Contact Us</h2>
-    <h3><img style ="vertical-align: middle;" src="images/icon-phone.svg">+61 416 116 601</h3>
-    <h3>info@precisionbusiness.com.au</h3>
-    <h3>Suite 2, 276, High Street, Kew Vic. 3101 Australia.</h3>
-</footer>
+    <footer id="white">
+        <img src="images/icon-logo.svg">
+        <h2 id="white">联系我们</h2>
+        <h3><img style ="vertical-align: middle;" src="images/icon-phone.svg">+61 416 116 601</h3>
+        <h3>info@precisionbusiness.com.au</h3>
+        <h3>Suite 2, 276, High Street, Kew Vic. 3101 Australia.</h3>
+    </footer>
+    
 
 </body>
 </html>
