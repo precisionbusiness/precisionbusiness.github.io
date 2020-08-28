@@ -494,6 +494,13 @@ footer{
 }
 
 #bannerwhatwedo{
+    background: url(images/banner-about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bannerwhatwedo{
     background: url(images/banner-whatwedo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
