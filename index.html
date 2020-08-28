@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png"/>
+    <title>Precision Business Management</title>
+</head>
+<body>
+    <div id= "languagebar" class="languagebar">
+        <div class="wrapperLang">
+            <button id="langButtonSelected" class="langButton">
+                <img style= "vertical-align: middle;" src="images/langENG.svg">
+            </button>
+            <button class="langButton">
+                <img style= "vertical-align: middle;" src="images/langCHI.svg">
+            </button>
+            <button class="langButton">
+                <img style= "vertical-align: middle;" src="images/langVIET.svg">
+            </button>
+        </div>
+    </div>
+
+<!-- START NAV -->
+
+    <nav id="menu">
+        <a href="javascript:void(0)" class="cross" onclick="closeNav()">×</a>    
+
+        <div class="menuflexer">
+        <a href="index.html"><img id="logo" src="images/pbmlogofull.svg" alt=""></a>
+        <div class="linkwrapper">
+        <a id= "navitemSelected" class="navitem" href="index.html">Home</a>
+        <a class="navitem" href="aboutus.html">About Us</a>
+        <a class="navitem" href="whatwedo.html">What We Do</a>
+        <a class="navitem" href="whyuseus.html">Why Use Us</a>
+        <a class="navitem" href="businessmigration.html">Business Migration</a>
+        </div> 
+        </div>
+    </nav>
+
+    <div class="mobilebar">
+        <a href="index.html" ><img id="navmobilelogo" src="images/icon-logo.svg"></a>
+        <span onclick="openNav()" id="burger">&#9776</span>
+    </div>
+
+
+    <!-- END NAV -->
+
+    <div class="wrapperHero">
+        <div  class="heroText">
+            <h1 id= "precisionTitle">Precision<br>Business Management</h1>
+            <h2 id= "precisionTagline">Business Buying & Management Support</h2>
+            <img id="sloganimg" src="images/slogan.svg">
+        </div>
+
+        <img id="hero" src = "images/heroimg.jpg" >
+    </div>
+
+<section class="WhatWeDo">
+    <h2 style="text-align: center;">What We Do</h2>
+    <h3>We specialise in assisting clients with securing, negotiating & buying profitable small to medium sized businesses in Melbourne and other regions in Australia, with the further option of management support.</h3>
+    <a class="buttonMore" href="aboutus.html">Read more<img style ="vertical-align: middle;" src="images/icon-chevron.svg"></a>
+</section>
+
+<div class="icongroup">
+    <div class="iconBox">
+        <img class="illustration" src="images/icon-sign.svg">
+        <h5>Business Buying</h5>
+    </div>
+    <div class="iconBox">
+        <img class="illustration" src="images/icon-shop.svg">
+        <h5>Business Management</h5>
+    </div>
+    <div class="iconBox">
+        <img class="illustration" src="images/icon-support.svg">
+        <h5>Business Support</h5>
+    </div>
+</div>
+
+<div class="halfhalf">
+    <img class="imghalf" src="images/experience.jpg" alt="">
+    <div class="texthalf">
+        <h2 id="white">Over 18 years Experience</h2>
+        <p style="margin-bottom: 12px;">Buying a business in Australia for the inexperienced could be fraught with danger, and finding the right business can take a lot of time and effort with no guarantee of success. Our team has over 18 years extensive experience as licensed agents in the listing and selling of small to medium sized businesses. We can work like your business partner to ensure the ongoing success of your business. Clients benefit from our experience, which can substantially reduce their risk.
+        </p>
+        <a href="aboutus.html" class="buttonMore" id="white">Read more <img style ="vertical-align: middle; filter:brightness(400%);" src="images/icon-chevron.svg"></a>
+    </div>
+</div>
+
+<footer id="white">
+    <img src="images/icon-logo.svg">
+    <h2 id="white">Contact Us</h2>
+    <h3><img style ="vertical-align: middle;" src="images/icon-phone.svg">+61 416 116 601</h3>
+    <h3>info@precisionbusiness.com.au</h3>
+    <h3>Suite 2, 276, High Street, Kew Vic. 3101 Australia.</h3>
+</footer>
+
+</body>
+</html>
