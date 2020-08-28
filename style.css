@@ -331,7 +331,7 @@ h4:first-child{
     .halfhalf{
         max-width: 1200px;
         margin: 40px auto;
-        background: grey;
+        background: #1FA496;
         display: flex;
         align-items: stretch;
         flex-direction: row;
